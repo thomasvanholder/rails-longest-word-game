@@ -24,7 +24,7 @@ class GamesController < ApplicationController
         @result = "Sorry, but #{attempt.upcase} does not seem to be an English word"
       end
     else
-      @result = "Sorry but #{attempt.upcase} can't be build out of #{grid.join(', ')}"
+      @result = "Sorry but #{attempt.upcase} can't be build out of the intial array}"
     end
   end
 
